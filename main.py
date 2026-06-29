@@ -9,7 +9,7 @@ class FourierLatexR(Scene):
         
         # 2. Obtener los puntos de la letra R de LaTeX
         # Usamos Tex con el símbolo de los números reales
-        letra_latex = Tex(r"$\mathbb{R}$", font_size=140)
+        letra_latex = Tex(r"$\mathbb{R}$", font_size=540)
         
         # Extraemos los puntos vectoriales del primer submobject directamente
         puntos_path = letra_latex[0].get_all_points()
@@ -45,7 +45,7 @@ class FourierLatexR(Scene):
         self.add(punta_movil)
         
         # TracedPath sigue automáticamente a 'punta_movil' sin dar errores de curvas
-        rastro = TracedPath(punta_movil.get_center, stroke_color=YELLOW, stroke_width=4)
+        rastro = TracedPath(punta_movil.get_center, stroke_color=YELLOW, stroke_width=2)
         
         tiempo = ValueTracker(0)
 
@@ -65,7 +65,7 @@ class FourierLatexR(Scene):
                     mob.add(circulo)
                 
                 # Vector de Euler (flecha)
-                vector = Line(centro, siguiente_centro, color=WHITE, stroke_width=1, buff=0)
+                vector = Line(centro, siguiente_centro, color=WHITE, stroke_width=0.5, buff=0)
                 vector.add_tip(tip_width=0.05, tip_length=0.05)
                 mob.add(vector)
                 
