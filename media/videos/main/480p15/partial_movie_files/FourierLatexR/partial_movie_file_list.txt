@@ -1,3 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/run/media/ricardo/Storage/Mathematics/Manim/FourierCurve_29_6_2026/media/videos/main/480p15/partial_movie_files/FourierLatexR/1584795214_2232670705_1021137700.mp4'
-file 'file:/run/media/ricardo/Storage/Mathematics/Manim/FourierCurve_29_6_2026/media/videos/main/480p15/partial_movie_files/FourierLatexR/4072820271_682321507_4253595325.mp4'
